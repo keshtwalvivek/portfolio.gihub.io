@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>javascript</title>
+</head>
+<body>
+<script type="text/javascript">
+ var arr=new Array(7,8,4,6,2,1);
+ var i,j,temp;
+ for(i=0;i<6;i++)
+ {
+  for(j=1;j<6-1-i;j++)
+   {
+     if(arr[j]>arr[j+1])
+     {
+       tamp=arr[i];
+       arr[i]=arr[j];
+       arr[j]=temp;
+     }
+   } 
+ }
+ for(i=0;i<6;i++)
+ {
+  document.write(arr[i]+" ");
+ }
+</script>>
+</body>
+</html>

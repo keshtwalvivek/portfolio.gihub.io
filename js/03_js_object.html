@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>javascript</title> 
+</head>
+<body>
+<script type="text/javascript">
+ var obj={
+  topic:"javascript",
+  learner:"vivek",
+  mode:"online",   
+  platform:"udamy"
+}
+
+  document.write("topic :"+obj.topic);
+  document.write("<br></br>");
+  document.write("learner :"+obj.learner);
+  document.write("<br></br>");
+  document.write("mode :"+obj.mode);
+  document.write("<br></br>");
+  document.write(" platform :"+obj.platform); 
+  document.write("<br></br>");
+  document.write("<h1>usin for in loop :</h1> ");
+  document.write("<br></br>");
+  var x;
+  var txt="";
+  for(x in  obj)
+  {
+    txt+= obj[x]+" ,";
+  }
+  document.write(txt);
+</script>
+</body>
+</html>
